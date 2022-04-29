@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./img/favicon.png">
+    <title>Kontaktskjema</title>
+</head>
+
+<body>
+    <header>
+        <a href="https://Prokom.no"><img src="./img/Prokom-logo.png" alt="Prokom logo"></a>
+        <nav>
+            <ul>
+                <li><a href="">Hjem</a></li>
+                <li><a href="">Produkter</a></li>
+                <li><a href="">Om oss</a></li>
+                <li><a href="">Kontakt oss</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="">Hjem</a></li>
+                <li><a href="">Kontakt oss</a></li>
+                <li><a href="">Kontaktskjema</a></li>
+            </ul>
+        </nav>
+        <h1>Kontaktskjema</h1>
+        <form name="form" action="#" method="post">
+            <label for="name">Navn:
+                <input type="text" name="name" id="name" placeholder="Ola Nordmann" required />
+            </label>
+            <label for="email">E-post:
+                <input type="email" name="email" id="email" placeholder="eksempel@epost.no" required />
+            </label>
+            <label for="tel">Telefonnummer:
+                <input type="tel" name="tel" id="tel" placeholder="99887766" required>
+            </label>
+            <label for="privacy">Personvern
+                <input type="checkbox" name="privacy" id="privacy" />
+            </label>
+            <input type="submit" id="submit" value="Send inn">
+            <p id="p"></p>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <p>Sem & Stenersen Prokom AS</p>
+            <p>Karl Johans gate 37b</p>
+            <p>0162 Oslo</p>
+        </div>
+        <div>
+            <p>Telefon: +47 22 98 31 00</p>
+            <p>post@prokom.no</p>
+            <a href="http://www.prokom.no">www.prokom.no</a>
+        </div>
+        <img src="./img/prokom-logo-ikon.png" alt="prokom logo ikon"/>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
